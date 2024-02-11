@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 100vh;
+    font-family: "Roboto", "sans-serif";
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+    align-self: normal;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3476e0;
+
+    height: 40px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+
+.header a:hover {
+    background-color: red;
+    padding: 5px;
+    border-radius: 6%
+}
+
+.main {
+    border-color: red;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 8rem;
+    align-self: normal;
+    background-color: #113063;
+}
+
+.footer p {
+    width: fit-content;
+}
+
+.groupWeekDays {
+    flex-direction: row;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.groupWeekDays p {
+    border-radius: 3px;
+    width: 7rem;
+    text-align: center;
+    padding-left: 2px;
+    color: red;
+    font-weight: bolder;
+    border: 2px solid white;
+    
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+
+.dias {
+    width: 7rem;
+    padding-left: 4px;
+    border-left: 1px solid white;
+    text-align: start;
+    color: white;
+}
+
+.dias p {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+
+.article {
+    padding: 10px;
+}
+
+
+
+.button {
+    height: 27px;
+    width: 27px;
+    background-color: rgb(160, 160, 201);
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+}
