@@ -3,13 +3,13 @@
 .body {
     display: flex;
     flex-direction: column;
-    gap: 2px;
     min-height: 100vh;
     font-family: "Roboto", "sans-serif";
     margin: 0;
     justify-content: center;
     align-items: center;
     background-color: black;
+    font-size: 14px;
 }
 
 .header {
@@ -40,7 +40,7 @@
     border-color: red;
     flex-grow: 1;
     justify-content: center;
-    padding: 6px;
+    padding: 4px;
     display: flex;
     justify-content: center;
 
